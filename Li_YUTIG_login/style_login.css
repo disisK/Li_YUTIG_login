@@ -1,0 +1,144 @@
+html {
+    min-height: 100%;
+}
+body {
+    background-image: url('bg\ pic.jpg');
+    position: relative;
+}
+.container{
+    text-align: center;
+    width: 100%;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    text-decoration: none;  
+}
+.log{
+    color: white;
+    margin-top: 15px;
+}
+input[type=text], input[type=password] {
+    width: 200px;
+    padding: 5px;
+    margin: 20px 0 2px 0;
+    display: inline-block;
+    border-radius: 3px;
+    border: none;
+    background: #f1f1f1;
+}
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #c2c1ff;
+    outline: none;
+}
+button {
+    border-radius: 10px;
+    background-color: #183787d3;
+    color: white;   
+    padding: 10px 12px;
+    margin-left: 90px;
+    margin-top: 23px ;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    opacity: 0.9;
+}
+button:hover {
+    opacity:3;
+}
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    width: 500px; 
+    height: 500px; 
+    overflow: auto; 
+    background-color: #474e5d;
+    padding-top: 50px;
+}
+.modal-content {
+    background-color: rgba(38, 38, 38, 0.775);
+    border-radius: 10px;
+    margin-top: 150px;
+    margin-left: 120px;
+    margin-bottom: 20px;
+    width: 400px; 
+}
+.whut{
+    margin-bottom: 50px;
+}
+.modal-content #error_user,
+.modal-content #error_pass{
+    font-size: 13px;
+    margin: 0;
+    padding-left: 90px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    display: none;
+    font-style: italic;
+}
+h1{
+    font-size: 50px;
+    padding-left: 20px;
+    color: white;
+}
+.bod{
+    padding-bottom: 70px;
+    padding-top: 80px;
+    background-color: rgba(0, 0, 0, 0.557);
+    margin-right: 150px;
+    margin-bottom: 100px;
+    border: 2px solid rgb(211, 204, 204);
+    width: 460px;
+    float: right;   
+}
+p{
+    font-size: 15px;
+    padding: 10px;
+    margin-left: 8px;
+    text-align: left;
+    color: white;
+}
+footer{
+    padding: 50px;
+	width: 100%;
+	bottom: 0;
+	background-color: #090b0bf0;
+}
+#b1{
+	margin-left: 500px;
+	background: url(sprites.png) -330px -995px/600px auto;
+	width: 55px;
+	height: 55px;
+
+}
+
+#n1:hover{
+	filter: brightness(90%);
+}
+#b2{	
+	background: url(sprites.png) -200px -800px/600px auto;
+	width: 55px;
+	height: 55px;
+}
+#b2:hover{
+	filter: brightness(90%);
+}
+#b3{
+	background: url(sprites.png) -330px -1132px/600px auto;
+	width: 55px;
+	height: 55px;
+}
+#b3:hover{
+	filter: brightness(90%);
+}
+.right{ 
+    float: right;
+}
+
+
+
+
+
+
+
+
+
